@@ -9,7 +9,7 @@ const GITHUB_URL =
   typeof process.env.NEXT_PUBLIC_GITHUB_URL === "string" &&
   process.env.NEXT_PUBLIC_GITHUB_URL
     ? process.env.NEXT_PUBLIC_GITHUB_URL
-    : "https://github.com";
+    : "https://github.com/henrynkoh/kjv_rd1";
 
 const SECTIONS = [
   { id: "hero", label: "Home" },
